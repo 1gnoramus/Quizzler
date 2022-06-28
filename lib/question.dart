@@ -3,7 +3,9 @@ class Question {
   bool questionAnswer;
 
   Question({String q, bool a}) {
-    questionAnswer = a;
     questionText = q;
+    questionAnswer = a;
   }
 }
+
+Question quizQuestion = Question(q: 'sda', a: false);
